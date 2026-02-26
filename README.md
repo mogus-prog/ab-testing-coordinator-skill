@@ -1,23 +1,68 @@
-# A/B Testing Coordinator Skill
+# A/B Testing Coordinator (OpenClaw Skill)
 
-This skill provides reusable structure for A/B Testing Coordinator tasks.
+**Build better OpenClaw bots, faster.**
 
-## Contents
-- SKILL.md
-- scripts/run.sh
-- references/sample-input.md
-- _meta.json
-- .clawhub/origin.json
+Coordinates A/B test setup, measurement, and rollout recommendations.
 
-## Smoke Test
+## Why this skill is useful
+
+- Reduces manual operations and repetitive decision overhead
+- Improves consistency and reliability in production workflows
+- Gives you a reusable automation block you can compose with other skills
+
+## What you can do with it
+
+- Run focused automation workflows around **A/B Testing Coordinator**
+- Adapt behavior to your own process and constraints
+- Integrate outputs with your existing OpenClaw routines
+
+## Quick Start
 
 ```bash
-bash scripts/run.sh --task "smoke test" --outdir ../../tmp/ab-testing-coordinator
+# Clone
+git clone https://github.com/mogus-prog/ab-testing-coordinator-skill.git
+cd ab-testing-coordinator-skill
+
+# Read usage and run sample flow from SKILL.md
 ```
 
-## Monetization / Commercial Support
+> This repository is designed to be used as an OpenClaw skill package. Start with `SKILL.md` for trigger guidance and workflow steps.
 
-- Offer this skill as a done-for-you implementation package for agencies and SMBs.
-- License custom variants with vertical-specific templates.
-- Provide paid setup, maintenance, and optimization retainers.
-- Bundle with KPI dashboards and monthly reporting for recurring revenue.
+## Ideal use cases
+
+- Personal AI operators who need dependable routines
+- Builders running multi-step automations
+- Teams who want reusable operational playbooks
+
+## Pair it with other skills
+
+This skill works best as part of a larger stack (monitoring + planning + execution + safety).
+
+## Commercial support / custom builds
+
+Want this adapted to your exact workflow and tech stack?
+
+- Custom implementation
+- Integration with your existing OpenClaw setup
+- Security hardening + approval-gated actions
+- Ongoing optimization and support
+
+**Contact:** https://dirtyleopard.com
+
+## Service Packages
+
+| Package | Price | Includes |
+|---|---:|---|
+| Starter Skill | $399 | 1 custom skill, setup docs, 1 revision |
+| Growth Bundle | $1,200 | 3 custom skills, workflow integration, 14-day support |
+| Operator Suite | $3,000+ | 5–8 skills, orchestration, security/reliability tuning |
+
+For commercial licensing or retainers, open an issue in this repo or contact via DirtyLeopard.com.
+
+## Contributing
+
+PRs and issues are welcome. If you test this in production, share results and edge cases.
+
+## License
+
+MIT
